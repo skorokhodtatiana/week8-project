@@ -20,13 +20,11 @@ body{
 }
 
 .name-brand{
-    font-family: "Inter", sans-serif;
-    font-weight: bolder;
    justify-items: start;
 }
 
 .logo{
-    margin-left: 7.5rem;
+    margin-left: 7rem;
 }
 
 .button-bascet{
