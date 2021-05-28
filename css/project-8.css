@@ -1,0 +1,11 @@
+.button-buy{
+    width: 10rem;
+    background-color: #5222D0;
+    color: #FFF;
+}
+
+.rectangle{
+    background-color: #FFF;
+    width: 1.5rem;
+    border-radius: 10%;
+}
