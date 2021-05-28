@@ -5,13 +5,11 @@ body {
 }
 
 .name-brand {
-    font-family: "Inter", sans-serif;
-    font-weight: bolder;
     justify-items: start;
 }
 
 .logo {
-    margin-left: 6.7rem;
+    margin-left: 7.2rem;
 }
 
 .ellipse-6 {
