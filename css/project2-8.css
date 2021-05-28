@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Intro";
+    /* Имя шрифта */
+    src: url("../fonts/8289.otf");
+} 
+
+body{
+    max-height: 100vh;
+}
+
+
+.ellipse-6{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.ellipse-3{
+    margin-left: -15px;
+    margin-top: 25px;
+}
+
+.name-brand{
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+   justify-items: start;
+}
+
+.logo{
+    margin-left: 7.5rem;
+}
+
+.button-bascet{
+    width: 8rem;
+    font-family: "Intro", sans-serif;
+    font-size: 0.8rem;
+    background-color: #5222D0;
+    color: #FFF;
+}
+
+.ellipse-bascet{
+    margin-left: -0.75rem;
+    margin-top: -0.6rem;
+}
+
+.header{
+    font-family: "Intro", sans-serif;
+    font-size: 3.8rem;
+}
+
+.name-card{
+    margin-top: 5rem;
+    font-family: "Intro", sans-serif;
+    font-size: 1.65rem;
+}
+
+.name-card-2{
+    font-family: "Intro", sans-serif;
+    font-size: 1.65rem;
+}
+
+.card-form{
+    background-color: #EC615B;
+    
+}
+
+.button-form{
+    border-radius: 2rem;
+    font-family: "Intro", sans-serif;
+    font-size: 0.8rem;
+    color: #FFF;
+    background-color: #5222D0;
+}
+
+.footer-item{
+    color: #000;
+}
