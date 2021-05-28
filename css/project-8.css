@@ -1,40 +1,69 @@
-/* .main-container{
-    height: 100%;
-} */
-body{
-    background-color: #E5E5E5;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300&display=swap');
+
+body {
+    max-height: 100vh;
 }
 
-.name-brand{
+.name-brand {
     font-family: "Inter", sans-serif;
     font-weight: bolder;
-   justify-items: start;
+    justify-items: start;
 }
 
-.button-search{
-    font-family: "Inter", sans-serif;
-    
+.logo {
+    margin-left: 6.7rem;
+}
+
+.ellipse-6 {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.ellipse-3 {
+    margin-left: -15px;
+    margin-top: 25px;
+}
+
+.button-bascet {
+    width: 8rem;
+    font-family: "Intro", sans-serif;
+    font-size: 0.8rem;
     background-color: #5222D0;
     color: #FFF;
+}
+
+.ellipse-bascet {
+    margin-left: -0.75rem;
+    margin-top: -0.6rem;
+}
+
+.header {
+    font-family: "Intro", sans-serif;
+    font-size: 3.8rem;
+}
+
+.text-header {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    color: #000000;
 }
 
 .button-buy {
     width: 15rem;
     height: 5rem;
-   
-    font-family: "Inter", sans-serif;
+    font-family: "Intro", sans-serif;
+    font-size: 2rem;
     background-color: #5222D0;
     color: #FFF;
 }
 
-/*шрифт Intro не нашла в бесплатном доступе, на GooglFonts его нет*/
 @font-face {
-    font-family: Inter;
+    font-family: "Intro";
     /* Имя шрифта */
-    src: url("../fonts-2/Inter-VariableFont_slnt\,wght.ttf");
+    src: url("../fonts/8289.otf");
 }
 
-.rectangle{
+.rectangle {
     background-color: #FFF;
     width: 2.6rem;
     height: 1.8rem;
@@ -42,32 +71,22 @@ body{
     margin-left: 1rem;
 }
 
-.rectangle-small{
+.rectangle-small {
     background-color: #5222D0;
     width: 2.6rem;
     height: 0.4rem;
-    margin-left: -42px;
+    margin-left: -41.5px;
     margin-top: -12px;
 }
 
-.footer-item{
+.footer-item {
     color: #5222D0;
 }
 
-/* .div-img-guy{
-    max-height: 75%;
+.div-img-guy {
+    max-height: 75vh;
 }
 
-.img-guy{
-    max-width: 100%;
-} */
-
-.ellipse-6{
-    margin-left: 5px;
-    margin-top: 3px;
-}
-
-.ellipse-3{
-    margin-left: -15px;
-    margin-top: 25px;
+.img-guy {
+    max-height: 100%;
 }
