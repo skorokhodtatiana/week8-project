@@ -1,11 +1,73 @@
-.button-buy{
-    width: 10rem;
+/* .main-container{
+    height: 100%;
+} */
+body{
+    background-color: #E5E5E5;
+}
+
+.name-brand{
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+   justify-items: start;
+}
+
+.button-search{
+    font-family: "Inter", sans-serif;
+    
     background-color: #5222D0;
     color: #FFF;
 }
 
+.button-buy {
+    width: 15rem;
+    height: 5rem;
+   
+    font-family: "Inter", sans-serif;
+    background-color: #5222D0;
+    color: #FFF;
+}
+
+/*шрифт Intro не нашла в бесплатном доступе, на GooglFonts его нет*/
+@font-face {
+    font-family: Inter;
+    /* Имя шрифта */
+    src: url("../fonts-2/Inter-VariableFont_slnt\,wght.ttf");
+}
+
 .rectangle{
     background-color: #FFF;
-    width: 1.5rem;
+    width: 2.6rem;
+    height: 1.8rem;
     border-radius: 10%;
+    margin-left: 1rem;
+}
+
+.rectangle-small{
+    background-color: #5222D0;
+    width: 2.6rem;
+    height: 0.4rem;
+    margin-left: -42px;
+    margin-top: -12px;
+}
+
+.footer-item{
+    color: #5222D0;
+}
+
+/* .div-img-guy{
+    max-height: 75%;
+}
+
+.img-guy{
+    max-width: 100%;
+} */
+
+.ellipse-6{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.ellipse-3{
+    margin-left: -15px;
+    margin-top: 25px;
 }
