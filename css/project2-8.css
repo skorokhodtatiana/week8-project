@@ -49,15 +49,48 @@ body{
     margin-top: 5rem;
     font-family: "Intro", sans-serif;
     font-size: 1.65rem;
+    margin-left: -1.4rem;
 }
 
 .name-card-2{
     font-family: "Intro", sans-serif;
     font-size: 1.65rem;
+    margin-left: -1.4rem;
+}
+
+.first-col-name{
+    margin-left: -0.5rem;
+}
+
+.card-text{
+    font-size: 1.25rem;
+    margin-left: -1.4rem;
+}
+
+.first-col-text{
+    margin-left: -0.5rem;
+}
+
+.name-card-form{
+    font-family: "Intro", sans-serif;
+    font-size: 1.65rem;
+    margin-top: -1.5rem;
+}
+
+.first-one-row{
+    border: 1px solid red;
+    margin-right: -0.5rem;
+}
+
+.first-two-row{
+    border: 1px solid red;
+    margin-left: -1rem;
 }
 
 .card-form{
-    background-color: #EC615B;
+    background-color: #EC615B; 
+    background-image: url(../images/orange-rectangle.png);
+    border-radius: 0;
     
 }
 
@@ -69,6 +102,37 @@ body{
     background-color: #5222D0;
 }
 
+.nav-footer{
+    margin-left: -2.2rem;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+}
+
 .footer-item{
     color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo{
+        margin-left: 0;
+    } 
+}
+
+@media screen and (max-width: 426px){
+   .header{
+    font-family: "Intro", sans-serif;
+    font-size: 2.8rem;
+}
+}
+
+@media screen and (max-width: 376px){
+    .button-bascet{
+        width: 8rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+        font-family: "Intro", sans-serif;
+        font-size: 0.8rem;
+        background-color: #5222D0;
+        color: #FFF;
+    }
 }
