@@ -112,6 +112,17 @@ body{
     color: #000;
 }
 
+@media screen  and (min-width: 1025px){
+    .button-bascet{
+        width: 8rem;
+        margin-right: 10rem;
+        font-family: "Intro", sans-serif;
+        font-size: 0.8rem;
+        background-color: #5222D0;
+        color: #FFF;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .logo{
         margin-left: 0;
