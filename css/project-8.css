@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300&display=swap');
 
+@font-face {
+    font-family: "Intro";
+    /* Имя шрифта */
+    src: url("../fonts/8289.otf");
+}
+
 body {
-    max-height: 100vh;
+    /* max-height: 100vh; */
+   height: 100%;
+    width: 100%;
 }
 
 .name-brand {
@@ -9,7 +17,7 @@ body {
 }
 
 .logo {
-    margin-left: 7.2rem;
+    margin-left: 3.2rem;
 }
 
 .ellipse-6 {
@@ -35,12 +43,16 @@ body {
     margin-top: -0.6rem;
 }
 
-.header {
+.main-text-col{
+    margin-left: 8rem;
+}
+
+.h-main {
     font-family: "Intro", sans-serif;
     font-size: 3.8rem;
 }
 
-.text-header {
+.text-main {
     font-family: 'Roboto Slab', serif;
     font-size: 1.3rem;
     color: #000000;
@@ -53,12 +65,6 @@ body {
     font-size: 2rem;
     background-color: #5222D0;
     color: #FFF;
-}
-
-@font-face {
-    font-family: "Intro";
-    /* Имя шрифта */
-    src: url("../fonts/8289.otf");
 }
 
 .rectangle {
@@ -77,14 +83,94 @@ body {
     margin-top: -12px;
 }
 
+.div-img-guy {
+    max-height: 78vh;
+    margin-left: -9rem;
+    background-image: url(../images/background.png);
+}
+
+.img-guy {
+    height: 100%;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
 .footer-item {
     color: #5222D0;
 }
 
-.div-img-guy {
-    max-height: 75vh;
+.footer-nav{
+    margin-left: -5.5rem;
 }
 
-.img-guy {
-    max-height: 100%;
+@media screen and (max-width: 1024px) {
+    .img-guy{
+        margin-left: 29rem;
+    }
+
+    .footer-nav{
+        margin-left: 0;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    .main-text-col{
+        margin-left: 3rem;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .img-guy {
+        height: 100%;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .div-img-guy {
+        max-height: 78vh;
+        margin-left: 0;
+        background-image: url(../images/background.png);
+    }
+
+    .footer-nav{
+        margin-left: 0;
+        margin-top: 4rem;
+    }
+
+    .h-main {
+        font-family: "Intro", sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .footer-item {
+        color: #5222D0;
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+} 
+
+@media screen and (max-width: 376px) {
+    .footer-item {
+        color: #5222D0;
+        font-size: 0.7rem;
+    } 
+
+    .button-bascet {
+        width: 8rem;
+        font-family: "Intro", sans-serif;
+        font-size: 0.8rem;
+        background-color: #5222D0;
+        color: #FFF;
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+}
+
+
