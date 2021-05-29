@@ -77,12 +77,12 @@ body{
     margin-top: -1.5rem;
 }
 
-.first-one-row{
+.first-col-one-row{
     border: 1px solid red;
     margin-right: -0.5rem;
 }
 
-.first-two-row{
+.first-col-two-row{
     border: 1px solid red;
     margin-left: -1rem;
 }
