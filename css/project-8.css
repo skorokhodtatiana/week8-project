@@ -5,10 +5,9 @@
     /* Имя шрифта */
     src: url("../fonts/8289.otf");
 }
-
-
-
-
+body{
+    height: 100%;
+}
 
 .body {
 
